@@ -16,12 +16,12 @@ format:
         show-notes: separate-page
         embed-resources: true
         transition: convex
-        theme: dark
+        theme: [dark, file.scss]
 ---
 
 # données de recherche, de quoi parle t-on ? 
 
-## données de recherche : kèsako ?
+## quels fichiers sont importants à mettre à disposition ?
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -53,24 +53,30 @@ format:
 :::: {.columns}
 ::: {.column width="50%"}
 
-- raw_data_spectrometer.csv
-- intermediate_data.xls
-- filter1.py
+- [raw_data_spectrometer.csv]{.green}
+- [intermediate_data.xls]{.orange}
+- [filter1.py]{.green}
 - first_draft_submission.pdf
-- spectrometer_calibration.md
+- [spectrometer_calibration.md]{.green}
 - kick_off_report.docx
-- filter2.py
-- notebook_experiment.ipynb
+- [filter2.py]{.green}
+- [notebook_experiment.ipynb]{.orange}
 
 :::
 ::: {.column widt="50%"}  
 
 - final_data_spectrometer.xls
 - project_presentation_funders.pptx
-- final_data.csv
-- study_draft.qmd
+- [final_data.csv]{.green}
+- [study_draft.qmd]{.orange}
 - january_meeting_partners.docx
 - spectrometer_instructions_for_use.pdf
 - gantt_calendar.xlsx
 :::
 ::::
+
+# Pourquoi conserver ces données ? 
+
+## {background-video="reproductibilite.mp4"}
+
+## fiabilité de la recherche
