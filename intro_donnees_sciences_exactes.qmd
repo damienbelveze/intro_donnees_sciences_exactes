@@ -17,6 +17,8 @@ format:
         embed-resources: true
         transition: convex
         theme: [dark, file.scss]
+bibliography: references.bib
+csl: apa.csl
 ---
 
 # données de recherche, de quoi parle t-on ? 
@@ -79,4 +81,11 @@ format:
 
 ## {background-video="reproductibilite.mp4"}
 
-## fiabilité de la recherche
+## pérennité de l'accès aux données
+
+![](images/perte_donnees.png){.r-stretch}
+
+@gibneyScientistsLosingData2013a
+
+# Références
+
