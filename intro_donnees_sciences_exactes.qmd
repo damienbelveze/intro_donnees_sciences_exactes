@@ -1,0 +1,76 @@
+---
+title: "introduction à la gestion des données en sciences exactes"
+subtitle: Collège Doctoral de Bretagne
+date: 07/11/2023
+author: 
+    - name: Damien Belvèze
+      email: damien.belveze@univ-rennes.fr
+      affiliation: 
+        - name: Université de Rennes
+          city: Rennes
+
+format: 
+    revealjs:
+        slide-number: c/t
+        show-slide-number: print
+        show-notes: separate-page
+        embed-resources: true
+        transition: convex
+        theme: dark
+---
+
+# données de recherche, de quoi parle t-on ? 
+
+## données de recherche : kèsako ?
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- raw_data_spectrometer.csv
+- intermediate_data.xls
+- filter1.py
+- first_draft_submission.pdf
+- spectrometer_calibration.md
+- kick_off_report.docx
+- filter2.py
+- notebook_experiment.ipynb
+
+:::
+::: {.column widt="50%"}  
+
+- final_data_spectrometer.xls
+- project_presentation_funders.pptx
+- final_data.csv
+- study_draft.qmd
+- january_meeting_partners.docx
+- spectrometer_instructions_for_use.pdf
+- gantt_calendar.xlsx
+:::
+::::
+
+## Réponses
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- raw_data_spectrometer.csv
+- intermediate_data.xls
+- filter1.py
+- first_draft_submission.pdf
+- spectrometer_calibration.md
+- kick_off_report.docx
+- filter2.py
+- notebook_experiment.ipynb
+
+:::
+::: {.column widt="50%"}  
+
+- final_data_spectrometer.xls
+- project_presentation_funders.pptx
+- final_data.csv
+- study_draft.qmd
+- january_meeting_partners.docx
+- spectrometer_instructions_for_use.pdf
+- gantt_calendar.xlsx
+:::
+::::
