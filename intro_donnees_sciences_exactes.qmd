@@ -87,5 +87,44 @@ csl: apa.csl
 
 @gibneyScientistsLosingData2013a
 
+# Un enjeu de Science Ouverte
+
+- "aussi ouvert que possible, aussi fermé que nécessaire"
+- Findable, Accessible, Interoperable, Reusable
+
+## rendre ses données trouvables
+
+- choix d'un répertoire thématique ou institutionnel de renommée
+- une description et des métadonnées riches
+
+## données accessibles ?
+
+
+## données interopérables ? 
+
+
+## données réutilisables ?
+
+
+# sauvegarde
+
+
+# archivage
+
+
+# exercice
+
+[bac à sable de Recherche Data Gouv](https://demo.recherche.data.gouv.fr/dataverse/tp)
+
+## Combien de silures dans la rivière Tydale tout au long de l'année
+
+## données fictives créées avec ChatGPT
+
+```{r}
+data.silures <- read.csv(file="silurus.csv")
+print(data.silures)
+
+```
+
 # Références
 
