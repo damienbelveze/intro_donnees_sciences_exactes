@@ -126,5 +126,11 @@ print(data.silures)
 
 ```
 
+## champs RDG
+
+```{r}
+cat(paste0(readLines("champs_rdg.md"), collapse="\n"))
+```
+
 # Références
 
