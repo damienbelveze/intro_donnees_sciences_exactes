@@ -1,6 +1,6 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
+name: Simulation du dépôt d'un jeu de données
+about: dépôt d'un jeu de données dans Recherche Data Gouv
 title: ''
 labels: ''
 assignees: ''
@@ -40,10 +40,6 @@ assignees: ''
 - Type de données :
 - autre type de données :  
 - publication associée : pas encore de publication  
-- citation : pas encore de citation   
-- type d'identifiant : 
-- identifiant de la publication    
-- URL de la publication  
   
 ## informations sur la subvention
 
@@ -53,8 +49,10 @@ assignees: ''
 - lien vers le site web de l'organisme :  
 - work package :
 - tâche :
-  
+
+
+
 ## déposant
 
-- nom du déposant : Alicia Lancet 
+- :gem: nom du déposant : Alicia Lancet 
 - date de dépôt : 
