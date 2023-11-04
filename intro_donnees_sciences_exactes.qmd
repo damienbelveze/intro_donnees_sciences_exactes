@@ -40,11 +40,11 @@ csl: apa.csl
 :::: {.columns}
 ::: {.column width="50%"}
 
-- raw_data_spectrometer.csv
+- raw_data_fish_counter.csv
 - intermediate_data.xls
 - filter1.py
 - first_draft_submission.pdf
-- spectrometer_calibration.md
+- fish_counter_calibration.md
 - kick_off_report.docx
 - filter2.py
 - notebook_experiment.ipynb
@@ -52,12 +52,12 @@ csl: apa.csl
 :::
 ::: {.column widt="50%"}  
 
-- final_data_spectrometer.xls
+- final_data_fish_counter.xls
 - project_presentation_funders.pptx
 - final_data.csv
 - study_draft.qmd
 - january_meeting_partners.docx
-- spectrometer_instructions_for_use.pdf
+- fish_counter_instructions_for_use.pdf
 - gantt_calendar.xlsx
 :::
 ::::
@@ -67,11 +67,11 @@ csl: apa.csl
 :::: {.columns}
 ::: {.column width="50%"}
 
-- [raw_data_spectrometer.csv]{.green}
+- [raw_data_fish_counter.csv]{.green}
 - [intermediate_data.xls]{.orange}
 - [filter1.py]{.green}
 - first_draft_submission.pdf
-- [spectrometer_calibration.md]{.green}
+- [fish_counter_calibration.md]{.green}
 - kick_off_report.docx
 - [filter2.py]{.green}
 - [notebook_experiment.ipynb]{.orange}
@@ -79,12 +79,12 @@ csl: apa.csl
 :::
 ::: {.column widt="50%"}  
 
-- final_data_spectrometer.xls
+- final_data_fish_counter.xls
 - project_presentation_funders.pptx
 - [final_data.csv]{.green}
 - [study_draft.qmd]{.orange}
 - january_meeting_partners.docx
-- spectrometer_instructions_for_use.pdf
+- fish_counter_instructions_for_use.pdf
 - gantt_calendar.xlsx
 :::
 ::::
@@ -116,28 +116,87 @@ csl: apa.csl
 
 ![principes FAIR](images/FAIR.png)
 
-## ouverture / fermeture
+## ouverture / fermeture 
 
-"aussi ouvert que possible, aussi fermé que nécessaire"
+:::{.incremental}
+
+- "aussi ouvert que possible, aussi fermé que nécessaire"
+
+- Ouverture par défaut
+
+- fermeture à justifier : 
+
+    - données personnelles
+    - propriété intellectuelle
+:::
 
 ## rendre ses données trouvables
 
-- choix d'un répertoire thématique ou institutionnel de renommée
-- une description et des métadonnées riches
+Qualité d'un répertoire : 
+
+::: {.incremental}
+
+- renommée
+- pérennité (institution support)
+- licence ouverte
+- identifiant pérenne
+- richesse des métadonnées
+- curation
+
+:::
+
+## {.smaller}
+
+
+
+| discipline | entrepôt |
+|:---|:---|
+| images (SHS) | [MediHal]( https://medihal.archives-ouvertes.fr/) |
+| code | Software Heritage via [HAL](https://hal.archives-ouvertes.fr) |
+| BioInformatique | [GenOuest](https://www.genouest.org/) |
+| Sciences Humaines | [Nakala](https://nakala.fr) |
+| Mathématiques | pas d'entrepôt, voir avec le [groupe RNBM](https://www.rnbm.org/category/le-reseau/groupes-de-travail/donnees-maths/) | |
+| environnement, hydrologie | [Osuris](https://accueil.osuris.fr/) |
+| Sciences de la terre | [data terra](https://www.data-terra.org/) |
+| Sciences de la mer |[data ifremer](https://data.ifremer.fr/), [seanoe](https://www.seanoe.org/) |
+| sciences médicales | [entrepôt INSERM sur RDG](https://entrepot.recherche.data.gouv.fr/dataverse/inserm) |
+| Ecologie, environnement et société | [Data.InDoRES et Cat.InDoRES](http://bbees.mnhn.fr/fr/dataindores-27)  |
+
+: {.striped}
 
 ## données accessibles ?
 
 
 ## données interopérables ? 
 
+| registre | identifiant |
+|:--|:--|
+| [CAS number]{.red} | 12019-52-2 |
+| [PubChem CID number]{.green} | 6914517 |
+| [PubChem SID number]{.green} | 24879035   |
+| [openSMILES identifier]{.green} | \[Cu\].\[Cu\].\[Te\] |
+|[InChI identifier]{.green} | InChI=1/2Cu.Te |
+|[MDL number]{.red} | MFCD00049727 | 
+
+: Quels identifiants utiliser pour le cuivre telluride ?
+
+## formats transparents ?
+
+![CSV vs XLS](images/error_excel.jpg)
+
+@ziemannFivePillarsComputational2023a
 
 ## données réutilisables ?
 
-
-# sauvegarde
-
-
-# archivage
+::: {style='font-size: 30px'}
+- [Creative Commons](https://fr.wikipedia.org/wiki/Licence_Creative_Commons) (CC:by)
+- une licence écrite par un cabinet d'avocat expert en propriété intellectuelle et qui prévoit une multiplicité de cas d'usages autorisés ou prohibés
+- [ODBL](https://opendatafrance.gitbook.io/odl-ressources/fiches-pratiques/aspects-juridiques/foire-aux-questions-sur-la-licence-odbl)
+- [Etalab](https://www.etalab.gouv.fr/licence-ouverte-open-licence/)
+- pas de licence, on fait ce qu'on veut avec mon jeu de données
+- [CC0](https://fr.wikipedia.org/wiki/Licence_CC0)
+- CC:by pour tous le monde sauf pour les industries fossiles, les vendeurs d'armes et Google (@thomasSeReapproprierProduction2023b).
+:::
 
 
 # exercice

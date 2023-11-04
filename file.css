@@ -1,6 +1,10 @@
 /*-- scss:rules --*/
 
-/*-- colors --*/
+/*-- text --*/
+
+.justify {
+    text-align: justify !important
+}
 
 .green{
     color: green;
@@ -8,6 +12,10 @@
 
 .orange{
     color: orange;
+}
+
+.red{
+    color: red;
 }
 
 /*-- headers --*/
@@ -18,6 +26,6 @@
     color: red
 }
 
-.justify {
-    text-align: justify !important
-  }
+
+
+
