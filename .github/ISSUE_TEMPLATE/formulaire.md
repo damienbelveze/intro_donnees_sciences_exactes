@@ -1,6 +1,6 @@
 ---
 name: formation doctorale
-description: activité finale
+description: "Remplissez autant que possible les informations demandées ci-dessous :"
 title: "Comment décrire un jeu de données"
 labels: ["atelier"]
 projects: ["préparation dépôt jeu de données"]
