@@ -139,6 +139,18 @@ Les *inscriptions* (Bruno Latour) qui sont produites dans la vie du projet ou du
 :::
 ::::
 
+::: {.notes}
+Rappeler aux doctorants, le non-sens qu'il y a à "geler" ses données dans le support en PDF de leur thèse. 
+Lors du dépôt de la publication dans HAL, les bibliothécaires de l'Université de Rennes essaient de récupérer auprès des auteurs les données en format réutilisable, quand elles ne se trouvent que dans le PDF de l'article.
+
+La Science Ouverte repose sur des formats libres (transparence, format accessible à tous). Un document CSV vaux mieux qu'un fichier Excel (voir plus loin)
+
+L'étape suivante consiste à utiliser des URI (par exemple des éléments Wikidata) dans ses tableaux de données pour relier ces données à d'autres données du même genre (RDF)
+
+Enfin on peut utiliser des outils comme Lodex pour transformer ses données en site web dynamique permettant de visualiser ses données de plusieurs manières et d'agréger son jeu de données à d'autres jeux de données
+
+:::
+
 ## Pourquoi conserver ces données ? 
 
 ## {background-iframe="https://video.univ-rennes1.fr/permalink/v125f6acecf2bu72r140/iframe/"}
@@ -186,6 +198,23 @@ au cas où la vidéo ne serait plus disponible sur le serveur, décommenter les 
     - propriété intellectuelle
 :::
 
+::: {.notes}
+
+# données personnelles
+
+L'enjeu reste de donner accès dans la plus large mesure possible au jeu de données. Pour cela, on aura recours à des procédés visant à pseudonymiser ou anonymiser le jeu de données. La pseudonymisation consiste à supprimer les données directement identifiantes, ou à les remplacer par des pseudonymes. Cette méthode comporte des risques de réidentification par croisement du jeu de données avec d'autres jeux portant sur la même population. 
+L'anonymisation des données est une méthode plus subtile consistant, après suppression des données directement identifiantes, à rendre les données moins précises ou à y ajouter du bruit pour entraver les tentatives éventuelles de réidentification. Il s'agit d'un compromis à trouver entre l'intérêt des personnes dont les données sont collectées et la finesse de ces données. Des outils existent pour anonymiser les données : Arx, Amnesia. 
+L'anonymisation des données entraîne des coûts de traitement (temps humain, prestatation) qu'il convient de prévoir en amont dans la demande de budget. 
+
+# propriété intellectuelle
+
+En France, le régime du droit de la donnée fait que celles-ci par défaut sont la propriété des employeurs, et non celle des producteurs (chercheurs).
+Mais il peut y avoir des limites au partage de ces données : 
+- licences contaminantes de certains matériels propriétaires utilisées pour produire des données (par exemple imagerie médicale)
+- projets de recherche internationaux : quel droit national on va appliquer sur ces données ?
+
+:::
+
 ## rendre ses données trouvables
 
 Qualité d'un répertoire : 
@@ -198,6 +227,18 @@ Qualité d'un répertoire :
 - identifiant pérenne
 - richesse des métadonnées
 - curation
+
+:::
+
+::: {.notes}
+
+Zenodo : pas de versionnage des jeux de données, métadonnées moins riches que sur RDG, mais entrepôt pérenne (European Commission)
+
+pour chercher des entrepôts et comparer leurs offres : https://re3data.org
+
+Eviter les entrepôts propriétaires (Figshare)
+
+critères de conformité des entrepôts : https://www.ouvrirlascience.fr/entrepots-de-donnees-de-confiance-criteres-de-conformite/
 
 :::
 
@@ -230,6 +271,11 @@ Qualité d'un répertoire :
 - gratuité
 - génération simplifiée de datapapers
 - [bac à sable de RDG](https://demo.recherche.data.gouv.fr/dataverse/tp)
+
+:::{.notes}
+Sur Zenodo, on est limité à 50 gigaoctets par dataset
+sur RDG, on est limité à 50 gigaoctets par fichier, un dataset peut comporter plusieurs fichiers (pas vu de limitation globale), donc oui, apparemment la volumétrie est moins limitée sur RDG que sur Zenodo.
+:::
 
 ## données accessibles ?
 
@@ -276,6 +322,10 @@ PubchemID est considérée comme un meilleur choix qu'InCHi, car plus *machine-r
 
 @ziemannFivePillarsComputational2023a
 
+::: {.notes}
+Utiliser Excel pour analyser des données (comme le font 69% des chercheurs d'après une étude de 2016) est une mauvaise idée. Utiliser plutôt des outils transparents comme R. Une étude de 2021 montre qu'Excel change régulièrement des gènes en dates, et le phénomène est connu de longue date. La #reproductibilité des études passe par le maniement d'outils libres et transparents sur ce qu'ils font. Reférences ici : https://doi.org/10.1093/bib/bbad375
+:::
+
 ## documenter les données {.incremental}
 
 > Documentation is the glue that binds a data science project together (@ziemannFivePillarsComputational2023a)
@@ -292,7 +342,7 @@ PubchemID est considérée comme un meilleur choix qu'InCHi, car plus *machine-r
 être précis dans la description du contexte de la production des données
 :::
 ::: {.column widt="50%"}
-![l'importance du contexte](images/data_context.png){#fig-data_context}
+![l'importance du contexte](images/data_context.png){#fig-data_context width="80%"}
 :::
 
 ::::
@@ -331,6 +381,11 @@ possibilité de lier le plan de gestion des données à un protocole déposé su
 :::
 
 ::: {.notes}
+
+**Demander aux élèves quelles sont les données mentionnées dans cette slide qui sont appropriées pour un jeu de données.**
+
+Réponses :
+
 Les licences Etalab et ODBL sont recommandées en France pour permettre la réutilisation des données. 
 Les Creative Commons sont plutôt appropriées aux résultats de la recherche (publications, preprints, posters...)
 la licence CC0 n'est pas autorisée en France où le droit d'auteur commande au minimum de citer l'auteur du jeu de données, ce que ne prévoit pas cette licence. 
