@@ -25,18 +25,52 @@
 - langue  
 - date  
 
-## mots-clé   
-- terme     
-- URL du terme    
-- Nom du vocabulaire  
-- URL du vocabulaire  
-- Type de données 
-- autre type de données  
-- publication associée  
-- citation   
-- type d'identifiant 
-- identifiant de la publication    
-- URL de la publication  
+## mots-clé 
+
+### terme 1
+
+**[biodiversité, mesure de population, etc.]{.green}**  
+
+- terme 1 :     
+- URL du terme 1    
+- Nom du vocabulaire (terme 1)  
+- URL du vocabulaire (terme 1) 
+
+:bulb: 
+
+* *utiliser le thesaurus INRAE*
+* *Dans Loterre, utiliser un thesaurus en Sciences de l'environnement*
+
+
+### Terme 2 
+
+**[espèce]{.green}**  
+
+- terme 2 :     
+- URL du terme 2 :   
+- Nom du vocabulaire (terme 2)  
+- URL du vocabulaire (terme 2) 
+
+:bulb:
+
+* utiliser Wikidata ou la taxonomie des poissons dans Loterre
+
+### Terme 3 
+
+**[instrument de mesure]{.green}**    
+- terme 3   :     
+- URL du terme 3 :     
+- Nom du vocabulaire (terme 3)    
+- URL du vocabulaire (terme 3)  
+
+:bulb:
+
+* Utiliser un thesaurus en Sciences de l'Ingénieur dans Loterre
+
+
+
+- Type de données   
+  
   
 ## informations sur la subvention
 
