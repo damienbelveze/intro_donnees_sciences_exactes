@@ -29,14 +29,14 @@
 
 ### terme 1
 
-**[biodiversité, mesure de population, etc.]{.green}**  
+[biodiversité, mesure de population, etc.]{style='color:green;  font-weight: bold'}  
 
 - terme 1 :     
 - URL du terme 1    
 - Nom du vocabulaire (terme 1)  
 - URL du vocabulaire (terme 1) 
 
-:bulb: 
+:bulb: astuce
 
 * *utiliser le thesaurus INRAE*
 * *Dans Loterre, utiliser un thesaurus en Sciences de l'environnement*
@@ -44,26 +44,26 @@
 
 ### Terme 2 
 
-**[espèce]{.green}**  
+[espèce]{style='color:green;  font-weight: bold'} 
 
 - terme 2 :     
 - URL du terme 2 :   
 - Nom du vocabulaire (terme 2)  
 - URL du vocabulaire (terme 2) 
 
-:bulb:
+:bulb: astuce
 
 * utiliser Wikidata ou la taxonomie des poissons dans Loterre
 
 ### Terme 3 
 
-**[instrument de mesure]{.green}**    
+[instrument de mesure]{style='color:green;  font-weight: bold'}      
 - terme 3   :     
 - URL du terme 3 :     
 - Nom du vocabulaire (terme 3)    
 - URL du vocabulaire (terme 3)  
 
-:bulb:
+:bulb: astuce
 
 * Utiliser un thesaurus en Sciences de l'Ingénieur dans Loterre
 
