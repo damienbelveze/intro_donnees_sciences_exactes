@@ -1,0 +1,23 @@
+/*-- scss:rules --*/
+
+/*-- colors --*/
+
+.green{
+    color: green;
+}
+
+.orange{
+    color: orange;
+}
+
+/*-- headers --*/
+
+.title{
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    color: red
+}
+
+.justify {
+    text-align: justify !important
+  }

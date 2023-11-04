@@ -16,12 +16,24 @@ format:
         show-notes: separate-page
         embed-resources: true
         transition: convex
-        theme: [dark, file.scss]
+        theme: [dark, file.css]
 bibliography: references.bib
 csl: apa.csl
 ---
 
-# données de recherche, de quoi parle t-on ? 
+# {background-color="#ffffff"}
+:::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
+
+[données de recherche, de quoi parle t-on ?]{.title}
+
+:::
+::: {.column width="50%"}
+
+![](images/data_narrative.jpg){width="80%"}
+
+:::
+::::
 
 ## quels fichiers sont importants à mettre à disposition ?
 
@@ -87,10 +99,26 @@ csl: apa.csl
 
 @gibneyScientistsLosingData2013a
 
-# Un enjeu de Science Ouverte
+# {background-color="#ffffff"} 
 
-- "aussi ouvert que possible, aussi fermé que nécessaire"
-- Findable, Accessible, Interoperable, Reusable
+:::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'} 
+
+[Un enjeu de Science Ouverte]{.title}
+:::
+::: {.column width="50%"}
+
+![](images/Open_Science_Logo.png)
+:::
+::::
+
+## principes FAIR
+
+![principes FAIR](images/FAIR.png)
+
+## ouverture / fermeture
+
+"aussi ouvert que possible, aussi fermé que nécessaire"
 
 ## rendre ses données trouvables
 
@@ -114,7 +142,9 @@ csl: apa.csl
 
 # exercice
 
-[bac à sable de Recherche Data Gouv](https://demo.recherche.data.gouv.fr/dataverse/tp)
+Possibilité de s'exercer sur Recherche Data Gouv
+
+[bac à sable de RDG](https://demo.recherche.data.gouv.fr/dataverse/tp)
 
 ## Combien de silures dans la rivière Tydale tout au long de l'année
 
@@ -125,6 +155,15 @@ data.silures <- read.csv(file="silurus.csv")
 print(data.silures)
 
 ```
+
+##
+
+::: {.justify}
+```{r}
+cat(paste0(readLines("mail.md"), collapse="\n"))
+```
+
+:::
 
 ## champs RDG
 
