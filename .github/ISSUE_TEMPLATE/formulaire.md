@@ -1,3 +1,12 @@
+---
+name: formation doctorale
+description: activité finale
+title: "Comment décrire un jeu de données"
+labels: ["atelier"]
+projects: ["préparation dépôt jeu de données"]
+assignees: 'Damien Belvèze'
+---
+
 ## identification du jeu de données
 
 - titre   
