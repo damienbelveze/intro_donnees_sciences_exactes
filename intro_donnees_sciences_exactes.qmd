@@ -17,6 +17,11 @@ format:
         embed-resources: true
         transition: convex
         theme: [dark, file.css]
+        reveal_plugins: [menu]
+        reveal_options: 
+          menu: 
+            numbers: true
+
 bibliography: references.bib
 csl: apa.csl
 ---
@@ -86,6 +91,20 @@ csl: apa.csl
 - january_meeting_partners.docx
 - fish_counter_instructions_for_use.pdf
 - gantt_calendar.xlsx
+:::
+::::
+
+# {background-color="#ffffff"}
+:::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
+
+[pour une science cumulative, fiable et reproductible?]{.title}
+
+:::
+::: {.column width="50%"}
+
+![](images/data_narrative.jpg){width="80%"}
+
 :::
 ::::
 
@@ -197,6 +216,19 @@ Qualité d'un répertoire :
 - [CC0](https://fr.wikipedia.org/wiki/Licence_CC0)
 - CC:by pour tous le monde sauf pour les industries fossiles, les vendeurs d'armes et Google (@thomasSeReapproprierProduction2023b).
 :::
+
+# {background-color="#ffffff"} 
+
+:::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'} 
+
+[Place à la pratique]{.title}
+:::
+::: {.column width="50%"}
+
+![](images/Silurus_glanis.jpg)
+:::
+::::
 
 
 # exercice
