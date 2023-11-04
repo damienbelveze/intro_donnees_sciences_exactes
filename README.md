@@ -2,7 +2,7 @@
 
 :pushpin: Cet entrepôt contient les fichiers relatifs à une formation à destination des doctorants sur l'introduction à la gestion des données en sciences exactes
 
-:pushpin: Le répertoire contient une [présentation](intro_donnees_sciences_exactes.html) ainsi qu'un exercice. 
+:pushpin: Le répertoire contient une [présentation](https://damienbelveze.github.io/intro_donnees_sciences_exactes/intro_donnees_sciences_exactes.html) ainsi qu'un exercice. 
 
 :pushpin: Dans cet exercice, les élèves analysent un [jeu de données](silurus.csv) et préparent le dépôt du jeu de données dans un entrepôt. 
 
