@@ -27,10 +27,28 @@ csl: apa.csl
 ---
 
 # {background-color="#ffffff"}
+
+:::: {.columns}
+::: {.column width="70%" .incremental}
+
+- conseils sur la gestion des données
+- formations (données, reproductibilité, identifiants)
+- accompagnement sur les plans de gestion de données
+- curation de la collection Univ-Rennes sur Recherche Data Gouv
+:::
+::: {.column width="30%"}
+
+![](images/ardoise.png)
+:::
+::::
+
+
+
+# {background-color="#ffffff"}
 :::: {.columns style='display: flex !important; height: 90%;'}
 ::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
 
-[données de recherche, de quoi parle t-on ?]{.title}
+[1. données de recherche, de quoi parle t-on ?]{.title}
 
 :::
 ::: {.column width="50%"}
@@ -96,19 +114,19 @@ csl: apa.csl
 
 # {background-color="#ffffff"}
 :::: {.columns style='display: flex !important; height: 90%;'}
-::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
+::: {.column width="40%" style='display: flex; justify-content: center; align-items: center;'}
 
-[pour une science cumulative, fiable et reproductible?]{.title}
+[2. pour une science cumulative, fiable et reproductible?]{.title}
 
 :::
-::: {.column width="50%"}
+::: {.column width="60%"}
 
-![](images/data_narrative.jpg){width="80%"}
+![](images/data_steps.png)
 
 :::
 ::::
 
-# Pourquoi conserver ces données ? 
+## Pourquoi conserver ces données ? 
 
 ## {background-video="reproductibilite.mp4"}
 
@@ -123,7 +141,7 @@ csl: apa.csl
 :::: {.columns style='display: flex !important; height: 90%;'}
 ::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'} 
 
-[Un enjeu de Science Ouverte]{.title}
+[3. Un enjeu de Science Ouverte]{.title}
 :::
 ::: {.column width="50%"}
 
@@ -183,8 +201,29 @@ Qualité d'un répertoire :
 
 : {.striped}
 
+## Recherche Data Gouv
+
+- richesse des métadonnées
+- curation
+- référence nationale  (soutenu par le Ministère)
+- identifiant pérenne
+- volumétrie importante
+- gratuité
+- génération simplifiée de datapapers
+- [bac à sable de RDG](https://demo.recherche.data.gouv.fr/dataverse/tp)
+
 ## données accessibles ?
 
+:::: {.columns}
+::: {.column width="50%"}
+Dans 93% des cas pas de réponse ou réponse négative sans justification @gabelicaManyResearchersWere2022a
+
+:::
+::: {.column width="50%"}
+
+![](images/data_available_request.jpg)
+:::
+::::
 
 ## données interopérables ? 
 
@@ -205,6 +244,26 @@ Qualité d'un répertoire :
 
 @ziemannFivePillarsComputational2023a
 
+## Documentation is the glue that binds a data science project together. {.incremental}
+
+- Décrire avec soin les données et le contexte de leur acquisition (production, collection)
+- *literate programming*
+- décrire les données en utilisant des ontologies
+
+## ontologies
+
+[regroupement de thesaurus](https://skosmos.loterre.fr/fr/)
+
+| discipline | thesaurus |
+|:-- |:--|
+| biodiversité | [INRAE](https://thesaurus.inrae.fr)|
+| environnement | [GEMET](https://www.eionet.europa.eu/gemet/fr/themes/) |
+| Biologie, Santé | [MeSH](https://www.ncbi.nlm.nih.gov/mesh) |
+| Santé mentale | [ascodopsy](https://santepsy.ascodocpsy.org/index.php?lvl=cmspage&pageid=6&id_rubrique=125) |
+| 
+
+
+
 ## données réutilisables ?
 
 ::: {style='font-size: 30px'}
@@ -217,25 +276,36 @@ Qualité d'un répertoire :
 - CC:by pour tous le monde sauf pour les industries fossiles, les vendeurs d'armes et Google (@thomasSeReapproprierProduction2023b).
 :::
 
+## Le plan de gestion de données
+
+:::: {.columns}
+::: {.column width="50%" .incremental}
+
+- Le PGD résume tous les choix faits pour la gestion des données
+
+- Déposer une première version d'un PGD 6 mois après la signature d'un contrat (ANR, Projets européens)
+
+- [DMP OPIDOR](https://dmp.opidor.fr/)
+
+:::
+::: {.column width="50%"}
+![](images/PNSO.png)
+:::
+::::
+
+
 # {background-color="#ffffff"} 
 
 :::: {.columns style='display: flex !important; height: 90%;'}
 ::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'} 
 
-[Place à la pratique]{.title}
+[4. Place à la pratique]{.title}
 :::
 ::: {.column width="50%"}
 
 ![](images/Silurus_glanis.jpg)
 :::
 ::::
-
-
-# exercice
-
-Possibilité de s'exercer sur Recherche Data Gouv
-
-[bac à sable de RDG](https://demo.recherche.data.gouv.fr/dataverse/tp)
 
 ## Combien de silures dans la rivière Tydale tout au long de l'année
 
