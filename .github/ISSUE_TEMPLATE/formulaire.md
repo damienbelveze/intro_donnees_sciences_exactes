@@ -1,10 +1,10 @@
 ---
 name: formation doctorale
-description: "Remplissez autant que possible les informations demandées ci-dessous :"
-title: "Comment décrire un jeu de données"
-labels: ["atelier"]
-projects: ["préparation dépôt jeu de données"]
-assignees: 'Damien Belvèze'
+about: bug report
+title: Comment décrire un jeu de données
+labels: ''
+assignees: damienbelveze
+
 ---
 
 ## identification du jeu de données
