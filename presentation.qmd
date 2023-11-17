@@ -12,8 +12,8 @@ author:
 format: 
     revealjs:
         slide-number: c/t
-        show-slide-number: print
-        show-notes: separate-page
+#        show-slide-number: # print
+#       show-notes: separate-page
         embed-resources: true
         transition: convex
         theme: [dark, file.css]
