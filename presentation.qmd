@@ -161,6 +161,18 @@ au cas où la vidéo ne serait plus disponible sur le serveur, décommenter les 
 {background-video="reproductibilite.mp4"}
 -->
 
+::: {.notes}
+
+jouer la vidéo de façon synchronisée avec une classe
+- télécharger la vidéo depuis le mediaserver et l'enregistrer sur le bureau  
+- l'ouvrir sans la jouer  
+- partager l'écran depuis Zoom, choisir le lecteur de vidéo  
+- cocher les deux cases en bas de la fenêtre de partage (audio pour tous + optimisation)  
+- jouer la vidéo puis cesser le partage quand elle est finie  
+
+:::
+
+
 ## pérennité de l'accès aux données
 
 ![lutter contre la perte des données](images/perte_donnees.png){#fig-perte}
