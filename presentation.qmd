@@ -12,10 +12,11 @@ author:
 format: 
     revealjs:
         slide-number: c/t
-#        show-slide-number: # print
+#       show-slide-number: # print
 #       show-notes: separate-page
         embed-resources: true
         transition: convex
+        from: markdown+emoji
         theme: [dark, file.css]
         reveal_plugins: [menu]
         reveal_options: 
@@ -365,8 +366,6 @@ possibilité de lier le plan de gestion des données à un protocole déposé su
 :::
 
 ## ontologies
-
-[regroupement de thesaurus](https://skosmos.loterre.fr/fr/)
 
 | discipline | thesaurus |
 |:-- |:--|

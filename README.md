@@ -4,6 +4,8 @@
 
 :pushpin: Le répertoire contient une [présentation](https://damienbelveze.github.io/intro_donnees_sciences_exactes/presentation.html) ainsi qu'un exercice. 
 
+:pushpin: cette présentation est également [disponible en anglais](https://damienbelveze.github.io/intro_donnees_sciences_exactes/presentation_en.html) 
+
 :pushpin: Dans cet exercice, les élèves analysent un [jeu de données](silurus.csv) et préparent le dépôt du jeu de données dans un entrepôt. 
 
 :pushpin:Pour ce faire, en plus du jeu de données, ils disposent d'un [document relatif au jeu de données](mail.md). 
