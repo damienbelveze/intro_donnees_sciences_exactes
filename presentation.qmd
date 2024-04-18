@@ -178,7 +178,7 @@ jouer la vidéo de façon synchronisée avec une classe
 
 ![lutter contre la perte des données](images/perte_donnees.png){#fig-perte}
 
-@gibneyScientistsLosingData2013a
+:notebook: @gibneyScientistsLosingData2013a
 
 # {background-color="#fef1da"} 
 
@@ -333,7 +333,7 @@ PubchemID est considérée comme un meilleur choix qu'InCHi, car plus *machine-r
 
 ![CSV vs XLS](images/error_excel.jpg){#fig-excel}
 
-@ziemannFivePillarsComputational2023a
+!notebook: @ziemannFivePillarsComputational2023a
 
 ::: {.notes}
 Utiliser Excel pour analyser des données (comme le font 69% des chercheurs d'après une étude de 2016) est une mauvaise idée. Utiliser plutôt des outils transparents comme R. Une étude de 2021 montre qu'Excel change régulièrement des gènes en dates, et le phénomène est connu de longue date. La #reproductibilité des études passe par le maniement d'outils libres et transparents sur ce qu'ils font. Reférences ici : https://doi.org/10.1093/bib/bbad375
