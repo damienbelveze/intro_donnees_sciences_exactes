@@ -1,0 +1,36 @@
+name: Generate PDF
+on: [push]
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the code from the repository
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Set up R and Quarto
+      - name: Setup R and Quarto
+        uses: r-lib/actions/setup-r@v1
+        with:
+          r-version: "4.0"
+      # Install dependencies
+      - name: Install Dependencies
+        run: |
+          install.packages("quarto", "rmarkdown", "pandoc")
+      # Render Quarto presentation to HTML and PDF
+      - name: Render Quarto Presentation
+        working-directory: ./
+        uses: rstudio/actions-rstudio@v1
+        env:
+          R_NO_DOWNLOAD_MANIFEST_FALLBACK: "TRUE"
+        args:
+          command: "render::presentation(input = 'presentation.qmd', output_file = 'presentation.html')"
+      - name: Render Quarto Presentation to PDF
+        working-directory: ./
+        run: |
+          pandoc presentation.qmd -s -o presentation.pdf
+          # Optionally, you can add a commit message and tag for the new PDF version
+          # git config user.email "you@example.com"
+          # git config user.name "Your Name"
+          # git add .
+          # git commit -m "Generate new PDF version of presentation"
+          # git push origin master
