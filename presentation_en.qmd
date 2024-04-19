@@ -129,7 +129,7 @@ Research data are data that have demonstrative value and on which publications r
 
 :::
 ::: {.column width="60%"}
-![static data to linked data](images/data_steps.png){#fig-data_steps}
+![do not freeze your data in PDFs](images/data_steps.png){#fig-data_steps}
 :::
 ::::
 
