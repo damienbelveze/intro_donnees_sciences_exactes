@@ -1,0 +1,345 @@
+WEBVTT
+
+1
+00:00:01.300 --> 00:00:05.660
+The secure storage and sharing of
+research data is increasingly being
+
+2
+00:00:05.860 --> 00:00:07.920
+emphasized by research funders and
+institutions.
+
+3
+00:00:08.680 --> 00:00:12.080
+The benefits of sharing research
+data include enabling new discovery
+
+4
+00:00:12.280 --> 00:00:15.560
+using existing datasets,
+exploring new collaborations,
+
+5
+00:00:16.020 --> 00:00:19.520
+the verification of results and
+reducing duplication of research.
+
+6
+00:00:20.460 --> 00:00:23.900
+The FAIR data principles act as
+an international guideline for
+
+7
+00:00:24.100 --> 00:00:25.460
+high-quality data stewardship.
+
+8
+00:00:26.060 --> 00:00:29.140
+FAIR is an acronym which makes the
+concept easier to discuss,
+
+9
+00:00:29.460 --> 00:00:32.860
+and FAIR data refers to data which
+meet principles of findability,
+
+10
+00:00:33.380 --> 00:00:36.620
+accessibility, interoperability
+and reusability.
+
+11
+00:00:38.160 --> 00:00:40.620
+By itself, data has no inherent meaning.
+
+12
+00:00:41.080 --> 00:00:44.940
+For data to have meaning and be usable,
+useful and valuable, it needs to
+
+13
+00:00:45.140 --> 00:00:46.120
+adhere to certain standards.
+
+14
+00:00:46.860 --> 00:00:51.120
+The FAIR data principles were first
+specified in 2016 in a publication
+
+15
+00:00:51.320 --> 00:00:53.440
+by an international consortium of
+researchers.
+
+16
+00:00:54.660 --> 00:00:58.220
+Without a set of guidelines like
+the FAIR the world of research data
+
+17
+00:00:58.420 --> 00:01:01.120
+would become more siloed,
+restrictive and inaccessible than
+
+18
+00:01:01.320 --> 00:01:02.080
+ever before.
+
+19
+00:01:03.540 --> 00:01:06.680
+The FAIR data principles guide
+researchers in managing their data
+
+20
+00:01:06.880 --> 00:01:10.200
+and making it findable,
+accessible, interoperable and reusable.
+
+21
+00:01:10.680 --> 00:01:15.200
+Using an established data repository
+like UWC's institutional repository,
+
+22
+00:01:15.400 --> 00:01:19.300
+KeKapu, to store and share research
+data goes a long way to ensure that
+
+23
+00:01:19.500 --> 00:01:20.780
+it is FAIR.
+
+24
+00:01:21.000 --> 00:01:24.800
+Making use of a repository like
+KeKapu also increases the fairness
+
+25
+00:01:25.000 --> 00:01:28.380
+of the data because it requires
+that data are richly described and
+
+26
+00:01:28.580 --> 00:01:30.520
+accompanied by supporting documentation.
+
+27
+00:01:32.040 --> 00:01:36.520
+UWC is also committed to data being
+as open as possible and as closed
+
+28
+00:01:36.720 --> 00:01:37.540
+as necessary.
+
+29
+00:01:38.600 --> 00:01:42.440
+Open in order to foster reusability
+and to accelerate research.
+
+30
+00:01:43.240 --> 00:01:46.020
+Closed to safeguard the privacy
+of the subjects.
+
+31
+00:01:47.660 --> 00:01:51.460
+Ideally, all data should be supplied
+in open formats where possible and
+
+32
+00:01:51.660 --> 00:01:54.720
+published openly, where legally
+and ethically permissible.
+
+33
+00:01:57.640 --> 00:02:00.620
+The first step in reusing data is
+to find them.
+
+34
+00:02:00.960 --> 00:02:04.800
+Metadata and data should be easy
+to find for both humans and computers.
+
+35
+00:02:05.460 --> 00:02:09.220
+Machine-readable metadata are essential
+for automatic discovery of datasets
+
+36
+00:02:09.420 --> 00:02:13.740
+and services, so this is an essential
+component of the verification process.
+
+37
+00:02:14.720 --> 00:02:18.840
+For data to be findable,
+metadata and metadata are assigned
+
+38
+00:02:19.040 --> 00:02:21.580
+a globally unique and persistent
+identifier.
+
+39
+00:02:23.500 --> 00:02:25.360
+Data are described with rich metadata.
+
+40
+00:02:27.120 --> 00:02:30.840
+Metadata clearly and explicitly
+include the identifier of the data
+
+41
+00:02:31.040 --> 00:02:31.800
+it describes.
+
+42
+00:02:33.200 --> 00:02:37.000
+Metadata and data are registered
+or indexed in a searchable resource.
+
+43
+00:02:39.520 --> 00:02:43.380
+Once the required data have been found,
+it needs to be clear how they can
+
+44
+00:02:43.580 --> 00:02:47.080
+be accessed, possibly including
+authentication and authorization.
+
+45
+00:02:48.860 --> 00:02:53.640
+For data to be accessible,
+metadata and data are retrievable
+
+46
+00:02:53.840 --> 00:02:57.460
+by the identifier using a standardized
+communications protocol.
+
+47
+00:02:58.360 --> 00:03:02.040
+The protocol is open,
+free and universally implementable
+
+48
+00:03:02.240 --> 00:03:05.620
+and the protocol allows for an
+authentication and authorization
+
+49
+00:03:05.820 --> 00:03:07.100
+procedure where necessary.
+
+50
+00:03:08.460 --> 00:03:11.920
+Metadata are accessible even when
+the data are no longer available.
+
+51
+00:03:14.360 --> 00:03:17.900
+The data usually need to be integrated
+with other data.
+
+52
+00:03:18.400 --> 00:03:21.660
+In addition, the data need to
+interoperate with applications or
+
+53
+00:03:21.860 --> 00:03:24.260
+workflows for analysis,
+storage and processing.
+
+54
+00:03:25.920 --> 00:03:30.220
+For data to be interoperable,
+metadata and data use a formal,
+
+55
+00:03:30.620 --> 00:03:33.900
+accessible, shared and broadly
+applicable language for knowledge
+
+56
+00:03:34.100 --> 00:03:34.860
+representation.
+
+57
+00:03:36.580 --> 00:03:40.100
+Metadata and data use vocabularies
+that follow FAIR principles.
+
+58
+00:03:41.360 --> 00:03:45.860
+Metadata and data include qualified
+references to other metadata and data.
+
+59
+00:03:48.620 --> 00:03:52.000
+The ultimate goal of FAIR is to
+optimize the reuse of data.
+
+60
+00:03:52.540 --> 00:03:56.120
+To achieve this, metadata and data
+should be well described so that
+
+61
+00:03:56.320 --> 00:03:59.380
+they can be replicated and or combined
+in different settings.
+
+62
+00:04:00.660 --> 00:04:05.040
+For data to be reusable,
+metadata and data are richly described
+
+63
+00:04:05.240 --> 00:04:08.180
+with a plurality of accurate and
+relevant attributes.
+
+64
+00:04:09.420 --> 00:04:12.900
+Metadata and data are released with
+a clear and accessible data usage
+
+65
+00:04:13.100 --> 00:04:17.120
+license and they are associated
+with detailed provenance.
+
+66
+00:04:18.080 --> 00:04:22.440
+Lastly, metadata and data meet domain
+relevant community standards.
+
+67
+00:04:25.880 --> 00:04:29.300
+Importantly, FAIR data is not a
+goal but a process.
+
+68
+00:04:30.140 --> 00:04:33.700
+Being committed to FAIR data requires
+a paradigm shift from individuals
+
+69
+00:04:33.900 --> 00:04:38.380
+as well as hand-in-hand with FAIR
+data compliance comes a commitment
+
+70
+00:04:38.580 --> 00:04:42.520
+from researchers to research data
+management as well as data management
+
+71
+00:04:42.720 --> 00:04:43.480
+planning.
+
