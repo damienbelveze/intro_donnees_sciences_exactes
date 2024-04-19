@@ -17,6 +17,6 @@
 login : **LancetAlicia**
 mdp : **SilurusGlanis2023**
 
-:dromedary_caml: A la place de cet exercice final, on peut aussi utiliser [une activité H5P (interactive book)](https://damienbelveze.github.io/intro_donnees_sciences_exactes/fair_data.html)
+:dromedary_camel: A la place de cet exercice final, on peut aussi utiliser [une activité H5P (interactive book)](https://damienbelveze.github.io/intro_donnees_sciences_exactes/fair_data.html)
 
 A partir d'un scénario de recherche fictif (données sur des populations de tapirs), des questions à choix multiples sont proposées aux étudiants. Cette activité dure une demie-heure environ. 
