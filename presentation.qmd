@@ -1,9 +1,9 @@
 ---
 title: "introduction à la gestion des données en sciences exactes"
 subtitle: Collège Doctoral de Bretagne
-date: 20/04/2024
+date: 19/04/2024
 author: 
-    - name: 'D. Belvèze'
+    - name: 'Damien Belvèze'
       email: damien.belveze@univ-rennes.fr
       affiliation: 
         - name: Université de Rennes
