@@ -21,8 +21,8 @@ jobs:
 
     - name: Set user.name and user.email
       run: |
-        git config --global user.name "${env.GITHUB_USERNAME}"
-        git config --global user.email "${env.GITHUB_EMAIL}"
+        git config --global user.name "$GITHUB_USERNAME"
+        git config --global user.email "$GITHUB_EMAIL"
 
     - name: Remove existing presentation.pdf file (if it exists)
       run: |
