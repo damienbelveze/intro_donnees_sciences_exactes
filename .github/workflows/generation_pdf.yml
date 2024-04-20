@@ -5,6 +5,10 @@ on:
     branches:
       - main # or whichever branch you want to monitor for changes
 
+env:
+  GITHUB_USERNAME: damienbelveze
+  GITHUB_EMAIL: damien.belveze@univ-rennes.fr
+
 jobs:
   pandoc_conversion:
     runs-on: ubuntu-latest
