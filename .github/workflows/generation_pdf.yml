@@ -41,7 +41,7 @@ jobs:
     - name: Convert HTML to PDF
       id: pdf_conversion
       run: |
-        pandoc --pdf-engine=xelatex presentation.html -s -o presentation.pdf
+        pandoc --pdf-engine=xelatex presentation.html -s -o presentation/presentation.pdf
 
     - name: Upload generated PDF as artifact
       uses: actions/upload-artifact@v2
