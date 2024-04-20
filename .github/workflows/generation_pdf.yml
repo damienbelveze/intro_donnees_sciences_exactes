@@ -59,7 +59,7 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: presentation_pdf
-        path: presentation.pdf
+        path: presentation
 
     - name: Create and push commit with the generated PDF
       uses: actions/github-script@v5
