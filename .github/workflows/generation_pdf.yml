@@ -11,4 +11,4 @@ jobs:
           args: >-  # allows you to break string into multiple lines
             --standalone
             --output=presentation.pdf
-            presentation.html
+            presentation.qmd
