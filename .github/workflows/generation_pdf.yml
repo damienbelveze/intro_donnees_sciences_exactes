@@ -14,11 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0 # Ensure the entire history is fetched, required for fetching submodules
-
+    
     - name: Set user.name and user.email
       run: |
         git config --global user.name "$GITHUB_USERNAME"
@@ -31,6 +27,11 @@ jobs:
           git commit -m "Remove existing presentation.pdf file"
           git push origin ${GITHUB_REF}
         fi
+
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0 # Ensure the entire history is fetched, required for fetching submodules
 
     - name: Install Pandoc and LaTeX packages
       run: |
