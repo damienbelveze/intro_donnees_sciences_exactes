@@ -3,8 +3,8 @@ name: Pandoc Conversion
 on:
   push:
     branches:
-      - main 
-      
+      - main # or whichever branch you want to monitor for changes
+
 jobs:
   pandoc_conversion:
     runs-on: ubuntu-latest
@@ -21,11 +21,54 @@ jobs:
         sudo apt-get install -y pandoc texlive-latex-recommended texlive-xetex texlive-luatex
 
     - name: Convert HTML to PDF
+      id: pdf_conversion
       run: |
         pandoc --pdf-engine=xelatex presentation.html -s -o presentation.pdf
 
-    - name: Upload generated PDF
+    - name: Upload generated PDF as artifact
       uses: actions/upload-artifact@v2
       with:
         name: presentation_pdf
         path: presentation.pdf
+
+    - name: Checkout repository again (to modify the committed files)
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0 # Ensure the entire history is fetched, required for fetching submodules
+
+    - name: Download generated PDF artifact
+      id: pdf_download
+      uses: actions/download-artifact@v2
+      with:
+        name: presentation_pdf
+        path: presentation.pdf
+
+    - name: Create and push commit with the generated PDF
+      uses: actions/github-script@v5
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        script: |
+          const fs = require('fs');
+          const path = require('path');
+          const childProcess = require('child_process');
+
+          // Create a new Git commit with the generated PDF
+          const addAndCommit = (repoPath, filePath) => {
+            childProcess.execSync(`cd ${repoPath} && git add ${filePath}`);
+            childProcess.execSync(`cd ${repoPath} && git commit -m "Automatically generated PDF from Pandoc"`);
+          };
+
+          // Push the new Git commit to the remote repository
+          const pushChanges = repoPath => {
+            childProcess.execSync(`cd ${repoPath} && git push origin ${process.env.GITHUB_REF}`);
+          };
+
+          const repoPath = process.env.GITHUB_WORKSPACE;
+          const pdfFilePath = path.join(repoPath, 'presentation.pdf');
+
+          if (fs.existsSync(pdfFilePath)) {
+            addAndCommit(repoPath, 'presentation.pdf');
+            pushChanges(repoPath);
+          } else {
+            console.log('Error: presentation.pdf not found');
+          }
