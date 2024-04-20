@@ -1,14 +1,25 @@
-name: PDF_generation
+name: Pandoc Conversion
 
-on: push
-
+on:
+  push:
+    branches:
+      - main 
+      
 jobs:
-  convert_via_pandoc:
-    runs-on: ubuntu-22.04
+  pandoc_conversion:
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: docker://pandoc/core:2.9
-        with:
-          args: >-  # allows you to break string into multiple lines
-            --standalone
-            --output=presentation.pdf
-            presentation.qmd
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0 # Ensure the entire history is fetched, required for fetching submodules
+
+    - name: Install Pandoc and LaTeX packages
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-latex-recommended texlive-xetex texlive-luatex
+
+    - name: Convert HTML to PDF
+      run: |
+        pandoc --pdf-engine=xelatex presentation.html -s -o presentation.pdf
