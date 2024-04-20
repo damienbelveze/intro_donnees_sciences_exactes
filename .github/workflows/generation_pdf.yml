@@ -22,8 +22,8 @@ jobs:
 
     - name: Remove existing presentation.pdf file (if it exists)
       run: |
-        if [ -e presentation.pdf ]; then
-          git rm presentation.pdf
+        if [ -e presentation/presentation.pdf ]; then
+          git rm presentation/presentation.pdf
           git commit -m "Remove existing presentation.pdf file"
           git push origin ${GITHUB_REF}
         fi
@@ -47,7 +47,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: presentation_pdf
-        path: presentation.pdf
+        path: presentation
 
     - name: Checkout repository again (to modify the committed files)
       uses: actions/checkout@v2
