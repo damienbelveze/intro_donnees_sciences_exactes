@@ -15,6 +15,14 @@ jobs:
       with:
         fetch-depth: 0 # Ensure the entire history is fetched, required for fetching submodules
 
+    - name: Remove existing presentation.pdf file (if it exists)
+      run: |
+        if [ -e presentation.pdf ]; then
+          git rm presentation.pdf
+          git commit -m "Remove existing presentation.pdf file"
+          git push origin ${GITHUB_REF}
+        fi
+
     - name: Install Pandoc and LaTeX packages
       run: |
         sudo apt-get update
