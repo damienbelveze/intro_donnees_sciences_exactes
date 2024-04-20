@@ -19,6 +19,11 @@ jobs:
       with:
         fetch-depth: 0 # Ensure the entire history is fetched, required for fetching submodules
 
+    - name: Set user.name and user.email
+      run: |
+        git config --global user.name "${env.GITHUB_USERNAME}"
+        git config --global user.email "${env.GITHUB_EMAIL}"
+
     - name: Remove existing presentation.pdf file (if it exists)
       run: |
         if [ -e presentation.pdf ]; then
